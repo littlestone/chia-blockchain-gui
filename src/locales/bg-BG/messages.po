@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: bg_BG\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: mint-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Bulgarian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: mint-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: bg\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[MintNetwork.mint-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Chia Explorer"
+msgid "*Want to explore Mint’s blocks further? Check out <0>Mint Explorer</0> built by an open source developer."
+msgstr "Mint Explorer"
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About Chia Blockchain"
+msgid "About Mint Blockchain"
 msgstr "Относно Чиа Блокчейн"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -250,8 +250,8 @@ msgid "Block VDF Iterations"
 msgstr "Общи брой VDF повторения"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блокирайте на височина {0} в блокчейна Chia"
+msgid "Block at height {0} in the Mint blockchain"
+msgstr "Блокирайте на височина {0} в блокчейна Mint"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -297,7 +297,7 @@ msgstr "Купи"
 #~ msgid "CCListItems.title"
 #~ msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:212
+#: src/components/selectKey/SelectKey.tsx:217
 msgid "Can be backed up to mnemonic seed"
 msgstr "Може да бъде създадена точка за възстановяване в мнемонично семе"
 
@@ -351,20 +351,12 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/electron/main.tsx:410
-msgid "Chat on KeyBase"
-msgstr "Чат в KeyBase"
+msgid "Chat on Discord"
+msgstr ""
 
-#: src/electron/main.tsx:428
-msgid "Chia"
-msgstr "Чиа"
-
-#: src/electron/main.tsx:367
-msgid "Chia Blockchain Wiki"
-msgstr "Чиа блокчейн Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chia Wallet"
-msgstr "Chia Портфейл"
+#: src/electron/main.tsx:410
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Чат в KeyBase"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 msgid "Choose Number of Plots"
@@ -581,7 +573,7 @@ msgstr "Създай точка за възстановяване"
 msgid "Create a Plot NFT"
 msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:254
+#: src/components/selectKey/SelectKey.tsx:259
 msgid "Create a new private key"
 msgstr "Създай нов таен ключ"
 
@@ -647,7 +639,7 @@ msgstr ""
 msgid "Current trade status"
 msgstr "Статус на търга"
 
-#: src/components/selectKey/SelectKey.tsx:227
+#: src/components/selectKey/SelectKey.tsx:232
 msgid "DANGER: permanently delete private key"
 msgstr "ОПАСНОСТ: Необратимо изтриване на личен ключ"
 
@@ -699,7 +691,7 @@ msgid "Delete Unconfirmed Transactions"
 msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:114
-#: src/components/selectKey/SelectKey.tsx:273
+#: src/components/selectKey/SelectKey.tsx:278
 msgid "Delete all keys"
 msgstr "Изтриване на всички ключове"
 
@@ -724,7 +716,7 @@ msgstr ""
 #~ msgstr "Изтриването на ключа необратимо ще премахне всички ключа от компютъра, подсигури се че имаш точка за възстановяване! Сигурен ли си че искаш да продължиш?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Mint Proof of Space plotter. If unsure, use the default Mint Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -825,8 +817,8 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Въведи 24 думения ключ който сте запазили за да възстановите вашият Chia портфейл."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Mint wallet."
+msgstr "Въведи 24 думения ключ който сте запазили за да възстановите вашият Mint портфейл."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
@@ -843,8 +835,8 @@ msgid "Error"
 msgstr "Грешка"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Грешка: Неуспешно изпращане на Chia до избрания адрес. Моля въведете Chia адрес."
+msgid "Error: Cannot send mint to coloured address. Please enter a mint address."
+msgstr "Грешка: Неуспешно изпращане на Mint до избрания адрес. Моля въведете Mint адрес."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -966,7 +958,7 @@ msgid "Fee"
 msgstr "Такса"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TXKM)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1115,7 +1107,7 @@ msgstr "Ако не бъде избрано ще бъде по подразби�
 msgid "Import Wallet from Mnemonics"
 msgstr "Внеси портфейл от мнемоники"
 
-#: src/components/selectKey/SelectKey.tsx:264
+#: src/components/selectKey/SelectKey.tsx:269
 msgid "Import from Mnemonics (24 words)"
 msgstr "Внеси от мнемоники (24 думи)"
 
@@ -1180,15 +1172,15 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:49
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent XKM farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent XKM farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:138
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent XKM farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
@@ -1339,6 +1331,18 @@ msgstr ""
 msgid "Minimum Difficulty"
 msgstr ""
 
+#: src/electron/main.tsx:428
+msgid "Mint"
+msgstr "Чиа"
+
+#: src/electron/main.tsx:367
+msgid "Mint Blockchain Wiki"
+msgstr "Чиа блокчейн Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "Mint Wallet"
+msgstr "Mint Портфейл"
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:98
 msgid "Minutes"
 msgstr "Минути"
@@ -1464,7 +1468,7 @@ msgid "Not found Plots"
 msgstr "Няма намерени полета"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.5XKM reward for pooling plots."
 msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
@@ -1795,7 +1799,7 @@ msgid "Plots Passed Filter"
 msgstr "Филтър за преминали плотове"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Mint. <0>Learn more</0>"
 msgstr "Плотовете са разпределено място на вашия хард диск, които се ползват за фармете и печелене на Чиа. <0>Научете повече</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:107
@@ -1938,7 +1942,7 @@ msgstr "Минал хедър хеш"
 #~ msgid "Previous Sub Block Hash"
 #~ msgstr "Previous Sub Block Hash"
 
-#: src/components/selectKey/SelectKey.tsx:207
+#: src/components/selectKey/SelectKey.tsx:212
 msgid "Private key with public fingerprint {fingerprint}"
 msgstr "Личен ключ със публичен отпечатък {fingerprint}"
 
@@ -2127,7 +2131,7 @@ msgstr "Вторична локация на временна папка"
 msgid "Secure your keychain using a strong passphrase"
 msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:216
+#: src/components/selectKey/SelectKey.tsx:221
 msgid "See private key"
 msgstr "Виж частен ключ"
 
@@ -2143,7 +2147,7 @@ msgstr "Избери втора временна директория"
 msgid "Select Final Directory"
 msgstr "Избери крайна директория"
 
-#: src/components/selectKey/SelectKey.tsx:175
+#: src/components/selectKey/SelectKey.tsx:180
 msgid "Select Key"
 msgstr "Избери ключ"
 
@@ -2195,7 +2199,7 @@ msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:104
-msgid "Self pool. When you win a block you will earn XCH rewards."
+msgid "Self pool. When you win a block you will earn XKM rewards."
 msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:164
@@ -2246,7 +2250,7 @@ msgstr "Показване на разширени опции"
 msgid "Side"
 msgstr "Страна"
 
-#: src/components/selectKey/SelectKey.tsx:180
+#: src/components/selectKey/SelectKey.tsx:185
 msgid "Sign In"
 msgstr "Вход"
 
@@ -2273,7 +2277,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Пропуска добавянето на финална директория на Фармера за фармене"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
+msgid "Smooth out your XKM farming rewards by joining a pool."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
@@ -2313,7 +2317,7 @@ msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (mint per interval): {0}"
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:100
@@ -2362,8 +2366,8 @@ msgstr "Статус:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Mint blockchain"
+#~ msgstr "Sub Block at height {0} in the Mint blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2396,23 +2400,23 @@ msgstr "Синхронизиране <0/>/<1/>"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TXKM Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TXKM Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TXKM Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TXKM User Fees"
+#~ msgstr "TXKM User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TXKM User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2498,7 +2502,7 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XKM address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:40
@@ -2521,8 +2525,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Тази функция е налична само в графична среда."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Това е количеството Chia, което в момента можете да използвате за извършване на транзакции. То не включва чакащи фармерски награди, чакащи входящи транзакции и Chia, които току-що сте похарчили, но все още не са в блокчейна."
+msgid "This is the amount of Mint that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Mint that you have just spent but is not yet in the blockchain."
+msgstr "Това е количеството Mint, което в момента можете да използвате за извършване на транзакции. То не включва чакащи фармерски награди, чакащи входящи транзакции и Mint, които току-що сте похарчили, но все още не са в блокчейна."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2541,7 +2545,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr ""
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of mint in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
@@ -2587,8 +2591,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Тази сделка беше включена в блокчейн на тази височина на блока"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Тази версия на Chia вече не е съвместима с блокчейна и не може безопасно да се обработва."
+msgid "This version of Mint is no longer compatible with the blockchain and can not safely farm."
+msgstr "Тази версия на Mint вече не е съвместима с блокчейна и не може безопасно да се обработва."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2616,13 +2620,13 @@ msgstr "Към"
 msgid "Total Balance"
 msgstr "Общ баланс"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "Общи повторения"
+
+#: src/components/farm/card/FarmCardTotalMintFarmed.tsx:15
+#~ msgid "Total Mint Farmed"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:15
 msgid "Total Network Space"
@@ -2800,12 +2804,12 @@ msgstr ""
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.mintWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
@@ -2838,8 +2842,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Искате да получавате повече Chia? Добавете повече полета в фермата си."
+msgid "Want to earn more Mint? Add more plots to your farm."
+msgstr "Искате да получавате повече Mint? Добавете повече полета в фермата си."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2870,9 +2874,9 @@ msgstr "Тегло"
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:183
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Добре дошли в Chia. Моля влезте със съществуващ ключ или създайте нов."
+#: src/components/selectKey/SelectKey.tsx:188
+msgid "Welcome to Mint. Please log in with an existing key, or create a new key."
+msgstr "Добре дошли в Mint. Моля влезте със съществуващ ключ или създайте нов."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2946,8 +2950,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Mint application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Mint application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -3004,7 +3008,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:177
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Mint will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:80
@@ -3085,9 +3089,9 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Награди на блока"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Общо изкопани Chia"
+#: src/components/farm/card/FarmCardTotalMintFarmed.tsx:29
+msgid "{currencyCode} Total Mint Farmed"
+msgstr "{currencyCode} Общо изкопани Mint"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

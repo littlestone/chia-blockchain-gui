@@ -32,7 +32,7 @@ export const bladebitDefaults: PlotterDefaults = {
   delay: 0,
 };
 
-export const chiaposOptions: PlotterOptions = {
+export const mintposOptions: PlotterOptions = {
   kSizes: [25, 32, 33, 34, 35],
   haveNumBuckets: true,
   haveMadmaxNumBucketsPhase3: false,
@@ -47,7 +47,7 @@ export const chiaposOptions: PlotterOptions = {
   canSetBufferSize: true,
 };
 
-export const chiaposDefaults: PlotterDefaults = {
+export const mintposDefaults: PlotterDefaults = {
   plotterName: PlotterName.CHIAPOS,
   plotSize: 32,
   numThreads: 2,
@@ -102,7 +102,7 @@ export const optionsForPlotter = (plotterName: PlotterName): PlotterOptions => {
       return madmaxOptions;
     case PlotterName.CHIAPOS: // fallthrough
     default:
-      return chiaposOptions;
+      return mintposOptions;
   }
 };
 
@@ -114,6 +114,6 @@ export const defaultsForPlotter = (plotterName: PlotterName): PlotterDefaults =>
       return madmaxDefaults;
     case PlotterName.CHIAPOS: // fallthrough
     default:
-      return chiaposDefaults;
+      return mintposDefaults;
   }
 };

@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: el_GR\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: mint-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: mint-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: el\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[MintNetwork.mint-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της Chia? Δοκιμάστε το <0>Chia Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
+msgid "*Want to explore Mint’s blocks further? Check out <0>Mint Explorer</0> built by an open source developer."
+msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της Mint? Δοκιμάστε το <0>Mint Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -60,8 +60,8 @@ msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About Chia Blockchain"
-msgstr "Περί Chia Blockchain"
+msgid "About Mint Blockchain"
+msgstr "Περί Mint Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -250,8 +250,8 @@ msgid "Block VDF Iterations"
 msgstr "Επαναλήψεις VDF του Block"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Block στο ύψος {0} στο Chia blockchain"
+msgid "Block at height {0} in the Mint blockchain"
+msgstr "Block στο ύψος {0} στο Mint blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -297,7 +297,7 @@ msgstr "Αγορά"
 #~ msgid "CCListItems.title"
 #~ msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:212
+#: src/components/selectKey/SelectKey.tsx:217
 msgid "Can be backed up to mnemonic seed"
 msgstr "Μπορεί να δημιουργηθεί αντίγραφο ασφαλείας σε μνημονικό seed"
 
@@ -351,20 +351,12 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/electron/main.tsx:410
-msgid "Chat on KeyBase"
-msgstr "Συνομιλήστε στο KeyBase"
+msgid "Chat on Discord"
+msgstr ""
 
-#: src/electron/main.tsx:428
-msgid "Chia"
-msgstr "Chia"
-
-#: src/electron/main.tsx:367
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chia Wallet"
-msgstr "Πορτοφόλι Chia"
+#: src/electron/main.tsx:410
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Συνομιλήστε στο KeyBase"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 msgid "Choose Number of Plots"
@@ -581,7 +573,7 @@ msgstr "Δημιουργία αντιγράφου ασφαλείας"
 msgid "Create a Plot NFT"
 msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:254
+#: src/components/selectKey/SelectKey.tsx:259
 msgid "Create a new private key"
 msgstr "Δημιουργία νέου ιδιωτικού κλειδιού"
 
@@ -647,7 +639,7 @@ msgstr ""
 msgid "Current trade status"
 msgstr "Τρέχουσα κατάσταση συναλλαγής"
 
-#: src/components/selectKey/SelectKey.tsx:227
+#: src/components/selectKey/SelectKey.tsx:232
 msgid "DANGER: permanently delete private key"
 msgstr "ΚΙΝΔΥΝΟΣ: μόνιμη διαγραφή ιδιωτικού κλειδιού"
 
@@ -699,7 +691,7 @@ msgid "Delete Unconfirmed Transactions"
 msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:114
-#: src/components/selectKey/SelectKey.tsx:273
+#: src/components/selectKey/SelectKey.tsx:278
 msgid "Delete all keys"
 msgstr "Διαγραφή όλων των κλειδιών"
 
@@ -724,7 +716,7 @@ msgstr ""
 #~ msgstr "Διαγραφή του κλειδιού θα αφαιρέσει μόνιμα το κλειδί από τον υπολογιστή σας, βεβαιωθείτε ότι έχετε αντίγραφο ασφαλείας. Είστε σίγουροι ότι θέλετε να συνεχίσετε;"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:96
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Mint Proof of Space plotter. If unsure, use the default Mint Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:313
@@ -825,8 +817,8 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Εισάγετε το μνημονικό 24ων λέξεων που έχετε αποθηκεύσει για να επαναφέρετε το Chia πορτοφόλι σας."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Mint wallet."
+msgstr "Εισάγετε το μνημονικό 24ων λέξεων που έχετε αποθηκεύσει για να επαναφέρετε το Mint πορτοφόλι σας."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
@@ -843,8 +835,8 @@ msgid "Error"
 msgstr "Σφάλμα"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Σφάλμα: Δεν μπορείτε να στείλετε chia σε χρωματισμένη διεύθυνση. Παρακαλώ εισάγετε μια διεύθυνση chia."
+msgid "Error: Cannot send mint to coloured address. Please enter a mint address."
+msgstr "Σφάλμα: Δεν μπορείτε να στείλετε mint σε χρωματισμένη διεύθυνση. Παρακαλώ εισάγετε μια διεύθυνση mint."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -966,7 +958,7 @@ msgid "Fee"
 msgstr "Προμήθεια"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TXKM)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -1115,7 +1107,7 @@ msgstr "Αν δεν επιλεγεί κάτι, τότε θα προκαθορι�
 msgid "Import Wallet from Mnemonics"
 msgstr "Εισαγωγή πορτοφολιού από Mnemonics"
 
-#: src/components/selectKey/SelectKey.tsx:264
+#: src/components/selectKey/SelectKey.tsx:269
 msgid "Import from Mnemonics (24 words)"
 msgstr "Εισαγωγή από Mnemonics (24 λέξεις)"
 
@@ -1180,15 +1172,15 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:49
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent XKM farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent XKM farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:138
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent XKM farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
@@ -1339,6 +1331,18 @@ msgstr ""
 msgid "Minimum Difficulty"
 msgstr ""
 
+#: src/electron/main.tsx:428
+msgid "Mint"
+msgstr "Mint"
+
+#: src/electron/main.tsx:367
+msgid "Mint Blockchain Wiki"
+msgstr "Mint Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "Mint Wallet"
+msgstr "Πορτοφόλι Mint"
+
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:98
 msgid "Minutes"
 msgstr "Λεπτά"
@@ -1464,7 +1468,7 @@ msgid "Not found Plots"
 msgstr "Δεν βρέθηκαν Οικόπεδα"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.5XKM reward for pooling plots."
 msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
@@ -1793,8 +1797,8 @@ msgid "Plots Passed Filter"
 msgstr "Plots Passed Filter"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Τα plots κατανέμονται στο σκληρό σας δίσκο που είναι για farm και κερδίζετε Chia. <0>Μάθετε περισσότερα</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Mint. <0>Learn more</0>"
+msgstr "Τα plots κατανέμονται στο σκληρό σας δίσκο που είναι για farm και κερδίζετε Mint. <0>Μάθετε περισσότερα</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:107
 msgid "Plotter"
@@ -1936,7 +1940,7 @@ msgstr "Προηγούμενη Header Hash"
 #~ msgid "Previous Sub Block Hash"
 #~ msgstr "Previous Sub Block Hash"
 
-#: src/components/selectKey/SelectKey.tsx:207
+#: src/components/selectKey/SelectKey.tsx:212
 msgid "Private key with public fingerprint {fingerprint}"
 msgstr "Ιδιωτικό κλειδί με δημόσιο αποτύπωμα {fingerprint}"
 
@@ -2125,7 +2129,7 @@ msgstr "Δεύτερη τοποθεσία προσωρινού φακέλου"
 msgid "Secure your keychain using a strong passphrase"
 msgstr ""
 
-#: src/components/selectKey/SelectKey.tsx:216
+#: src/components/selectKey/SelectKey.tsx:221
 msgid "See private key"
 msgstr "Προβολή ιδιωτικού κλειδιού"
 
@@ -2141,7 +2145,7 @@ msgstr "Επιλογή 2ου Προσωρινού Καταλόγου"
 msgid "Select Final Directory"
 msgstr "Επιλογή Τελικού Καταλόγου"
 
-#: src/components/selectKey/SelectKey.tsx:175
+#: src/components/selectKey/SelectKey.tsx:180
 msgid "Select Key"
 msgstr "Επιλογή Κλειδιού"
 
@@ -2193,7 +2197,7 @@ msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:104
-msgid "Self pool. When you win a block you will earn XCH rewards."
+msgid "Self pool. When you win a block you will earn XKM rewards."
 msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:164
@@ -2244,7 +2248,7 @@ msgstr "Δείξε επιλογές για προχωρημένους"
 msgid "Side"
 msgstr "Πλευρά"
 
-#: src/components/selectKey/SelectKey.tsx:180
+#: src/components/selectKey/SelectKey.tsx:185
 msgid "Sign In"
 msgstr "Είσοδος"
 
@@ -2271,7 +2275,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Skips adding a final directory to harvester for farming"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
+msgid "Smooth out your XKM farming rewards by joining a pool."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
@@ -2311,8 +2315,8 @@ msgstr "Spending Interval Length (number of blocks)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Όριο δαπανών (chia ανά διάστημα): {0}"
+msgid "Spending Limit (mint per interval): {0}"
+msgstr "Όριο δαπανών (mint ανά διάστημα): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2360,8 +2364,8 @@ msgstr "Κατάσταση:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Mint blockchain"
+#~ msgstr "Sub Block at height {0} in the Mint blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2394,23 +2398,23 @@ msgstr ""
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TXKM Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TXKM Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TXKM Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TXKM User Fees"
+#~ msgstr "TXKM User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TXKM User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2496,7 +2500,7 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Το συνολικό ποσό των τελών των συναλλαγών σε αυτό το μπλοκ. Ανταμοιβή στον αγρότη."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XKM address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:40
@@ -2519,8 +2523,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Αυτή η δυνατότητα είναι διαθέσιμη μόνο στα μέλη PRO."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Αυτό είναι το ποσό των Chia που μπορείτε να χρησιμοποιήσετε επί του παρόντος για να πραγματοποιήσετε συναλλαγές. Δεν περιλαμβάνει εκκρεμείς ανταμοιβές για τη συγκομιδή, εκκρεμείς εισερχόμενες συναλλαγές, και Chia που έχετε μόλις ξοδέψει αλλά δεν είναι ακόμη στο blockchain."
+msgid "This is the amount of Mint that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Mint that you have just spent but is not yet in the blockchain."
+msgstr "Αυτό είναι το ποσό των Mint που μπορείτε να χρησιμοποιήσετε επί του παρόντος για να πραγματοποιήσετε συναλλαγές. Δεν περιλαμβάνει εκκρεμείς ανταμοιβές για τη συγκομιδή, εκκρεμείς εισερχόμενες συναλλαγές, και Mint που έχετε μόλις ξοδέψει αλλά δεν είναι ακόμη στο blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2539,8 +2543,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Αυτή είναι η στιγμή που το μπλοκ δημιουργήθηκε από τον farmer, η οποία είναι πριν οριστικοποιηθεί με αποδεικτικό χρόνου"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Αυτή είναι η συνολική ποσότητα chia στο blockchain στο τρέχον υπο-μπλοκ κορυφής που ελέγχεται από τα ιδιωτικά σας κλειδιά. Περιλαμβάνει βραβεία frozen farming, αλλά όχι εισερχόμενες και εξερχόμενες συναλλαγές."
+msgid "This is the total amount of mint in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Αυτή είναι η συνολική ποσότητα mint στο blockchain στο τρέχον υπο-μπλοκ κορυφής που ελέγχεται από τα ιδιωτικά σας κλειδιά. Περιλαμβάνει βραβεία frozen farming, αλλά όχι εισερχόμενες και εξερχόμενες συναλλαγές."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2585,8 +2589,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Αυτή η συναλλαγή συμπεριλήφθηκε στο blockchain σε αυτό το ύψος μπλοκ"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Αυτή η έκδοση του Chia δεν είναι πλέον συμβατή με το blockchain και δεν μπορεί να γίνει farm με ασφάλεια."
+msgid "This version of Mint is no longer compatible with the blockchain and can not safely farm."
+msgstr "Αυτή η έκδοση του Mint δεν είναι πλέον συμβατή με το blockchain και δεν μπορεί να γίνει farm με ασφάλεια."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2614,13 +2618,13 @@ msgstr "Προς"
 msgid "Total Balance"
 msgstr "Συνολικό Υπόλοιπο"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "Σύνολο Επαναλήψεων"
+
+#: src/components/farm/card/FarmCardTotalMintFarmed.tsx:15
+#~ msgid "Total Mint Farmed"
+#~ msgstr ""
 
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:15
 msgid "Total Network Space"
@@ -2798,12 +2802,12 @@ msgstr ""
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.mintWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
@@ -2836,8 +2840,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Θέλετε να κερδίσετε περισσότερα Chia? Προσθέστε περισσότερα plots στο farm σας."
+msgid "Want to earn more Mint? Add more plots to your farm."
+msgstr "Θέλετε να κερδίσετε περισσότερα Mint? Προσθέστε περισσότερα plots στο farm σας."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2868,9 +2872,9 @@ msgstr "Βάρος"
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "Το βάρος είναι η συνολική προστιθέμενη δυσκολία όλων των υπο-μπλοκ μέχρι και αυτό"
 
-#: src/components/selectKey/SelectKey.tsx:183
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Καλώς ήρθατε στη Chia. Παρακαλώ συνδεθείτε με ένα υπάρχον κλειδί ή δημιουργήστε ένα νέο κλειδί."
+#: src/components/selectKey/SelectKey.tsx:188
+msgid "Welcome to Mint. Please log in with an existing key, or create a new key."
+msgstr "Καλώς ήρθατε στη Mint. Παρακαλώ συνδεθείτε με ένα υπάρχον κλειδί ή δημιουργήστε ένα νέο κλειδί."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2944,8 +2948,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Mint application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Mint application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -3002,7 +3006,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:177
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Mint will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:80
@@ -3083,9 +3087,9 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Ανταμοιβές μπλοκ"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Σύνολο Chia που έχουν γίνει Farmed"
+#: src/components/farm/card/FarmCardTotalMintFarmed.tsx:29
+msgid "{currencyCode} Total Mint Farmed"
+msgstr "{currencyCode} Σύνολο Mint που έχουν γίνει Farmed"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
